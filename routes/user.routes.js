@@ -10,4 +10,5 @@ const userRouter = Router();
  userRouter.put('/:id',(req,res)=> res.send( {title:'Update User '}));
 
  userRouter.delete('/:id',(req,res)=> res.send( {title:'Delete all Users '}));
+ 
  export default userRouter;
